@@ -1,12 +1,12 @@
 public class Loja {
     private String nomeLoja;
     private String cnpj;
-    private Long qtdeEmEstoque;
 
-    public Loja(String nomeLoja, String cnpj, Long qtdeEmEstoque){
+
+    public Loja(String nomeLoja, String cnpj ){
         this.nomeLoja = nomeLoja;
         this.cnpj = cnpj;
-        this.qtdeEmEstoque = qtdeEmEstoque;
+
     }
 
     public void setNomeLoja(String nomeLoja){
@@ -17,7 +17,5 @@ public class Loja {
         this.cnpj = cnpj;
     }
 
-    public Long getQtdeEmEstoque(){
-        return qtdeEmEstoque;
-    }
+
 }
