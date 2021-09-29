@@ -1,16 +1,18 @@
 public abstract class Produto {
 
-    private String modelo;
-    private String cor;
-    private int qntEstoque;
-    private Long valor;
+    protected String modelo;
+    protected String cor;
+    protected int qntEstoque;
+    protected Long valor;
+    protected boolean tipoProduto;
 
 
-    public Produto( String modelo, String cor, int qntEstoque, Long valor){
+    public Produto( String modelo, String cor, int qntEstoque, Long valor, boolean tipoProduto){
         this.modelo = modelo;
         this.cor = cor;
         this.qntEstoque = qntEstoque;
         this.valor = valor;
+        this.tipoProduto = tipoProduto;
     }
 
     public void setModelo(String modelo){
@@ -21,11 +23,16 @@ public abstract class Produto {
         this.cor = cor;
     }
 
-    public void setGenero(int qntEstoque){
+    public void setQntEstoque(int qntEstoque){
         this.qntEstoque = qntEstoque;
     }
 
     public Long getValor(){
         return valor;
+    }
+    
+    public void setTipoProduto() {
+    	this.tipoProduto = tipoProduto;
+    	
     }
 }

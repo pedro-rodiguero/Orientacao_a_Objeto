@@ -16,6 +16,8 @@ public class Loja {
     public void setCnpj(String cnpj){
         this.cnpj = cnpj;
     }
+    
+    
 
 
 }
