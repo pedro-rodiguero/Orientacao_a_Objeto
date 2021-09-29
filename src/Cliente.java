@@ -1,8 +1,10 @@
 public class Cliente {
-    private String nome;
-    private String cpf;
-    private String cep;
-    private String telefone;
+    protected String nome;
+    protected String cpf;
+    protected String cep;
+    protected String telefone;
+
+    public Cliente(){}
 
     public Cliente(String nome, String cpf, String cep, String telefone){
         this.nome = nome;

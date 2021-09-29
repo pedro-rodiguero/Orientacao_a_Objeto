@@ -1,9 +1,11 @@
 public class Venda {
-    private int qntProduto;
-    private String id;
-    private Long valor;
+    protected int qntProduto;
+    protected int id;
+    protected Long valor;
 
-    public Venda( int qntProduto, String id, Long valor){
+    public Venda(){}
+
+    public Venda( int qntProduto, int id, Long valor){
 
         this.qntProduto = qntProduto;
         this.id = id;
@@ -14,7 +16,7 @@ public class Venda {
         this.qntProduto = qntProduto;
     }
 
-    public void setid(String id){
+    public void setid(int id){
         this.id = id;
     }
 
