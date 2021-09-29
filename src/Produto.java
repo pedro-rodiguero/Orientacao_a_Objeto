@@ -4,16 +4,23 @@ public abstract class Produto {
     protected String cor;
     protected int qntEstoque;
     protected Long valor;
-    protected boolean tipoProduto;
+    protected String tipoProduto;
 
+    public Produto(){}
 
-    public Produto( String modelo, String cor, int qntEstoque, Long valor, boolean tipoProduto){
+    public Produto(String modelo, String cor, int qntEstoque, Long valor, String tipoProduto){
         this.modelo = modelo;
         this.cor = cor;
         this.qntEstoque = qntEstoque;
         this.valor = valor;
         this.tipoProduto = tipoProduto;
     }
+
+    public Produto(String modelo, String cor, int qntEstoque, Long valor) {
+        this.modelo = modelo;
+        this.cor = cor;
+        this.qntEstoque = qntEstoque;
+        this.valor = valor;    }
 
     public void setModelo(String modelo){
         this.modelo = modelo;
@@ -31,7 +38,7 @@ public abstract class Produto {
         return valor;
     }
     
-    public void setTipoProduto() {
+    public void setTipoProduto(String tipoProduto) {
     	this.tipoProduto = tipoProduto;
     	
     }

@@ -10,7 +10,6 @@ public class Venda {
         this.valor = valor;
     }
 
-
     public void setqntProduto(int qntProduto){
         this.qntProduto = qntProduto;
     }
