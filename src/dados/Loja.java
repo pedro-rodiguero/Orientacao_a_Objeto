@@ -1,8 +1,10 @@
 package dados;
 
 public class Loja {
-    private String nomeLoja;
-    private String cnpj;
+    protected String nomeLoja;
+    protected String cnpj;
+
+    public Loja(){}
 
     public Loja(String nomeLoja, String cnpj ){
         this.nomeLoja = nomeLoja;

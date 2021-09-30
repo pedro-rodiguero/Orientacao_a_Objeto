@@ -28,11 +28,16 @@ public class PreCadastros {
     private static final int[] ids = {1001, 1002, 2001, 2002, 1003};
     private static final Long[] valores = {10L, 15L, 35L, 20L, 55L};
 
+    //Pre cadastro de loja
+    private static final String[] nomeLojas = {"SunglassHut", "Chilli Beans", "New Era"};
+    private static final String[] cpnjs = {"75120410073347", "08888932464067", "05484928010396"};
+
 
     public static void preCadastro(){
         ArrayList<Produto> produtos = new ArrayList<>();
         ArrayList<Cliente> clientes = new ArrayList<>();
         ArrayList<Venda> vendas = new ArrayList<>();
+        ArrayList<Loja> lojas = new ArrayList<>();
 
         //Setando novos produtos
         for(int i = 0; i < 8; i++){
@@ -70,6 +75,13 @@ public class PreCadastros {
             venda.qntProduto = qntProdutos[i];
             venda.id = ids[i];
             venda.valor = valores[i];
+        }
+
+        //Setando novas lojas
+        for(int i = 0; i < 3; i++){
+            Loja loja = new Loja();
+            loja.nomeLoja = nomeLojas[i];
+            loja.cnpj = cpnjs[i];
         }
     }
 }
