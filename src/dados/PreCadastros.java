@@ -29,7 +29,7 @@ public class PreCadastros {
     private static final Long[] valores = {10L, 15L, 35L, 20L, 55L};
 
 
-    public static void preCadastro(String[] args){
+    public static void preCadastro(){
         ArrayList<Produto> produtos = new ArrayList<>();
         ArrayList<Cliente> clientes = new ArrayList<>();
         ArrayList<Venda> vendas = new ArrayList<>();
@@ -42,9 +42,17 @@ public class PreCadastros {
             produto.qntEstoque = qntEstoque[i];
             produto.valor = valor[i];
             if(tipoProdutos[i])
-                produto.tipoProduto = "dados.Oculos";
+                produto.tipoProduto = "Oculos";
             else
-                produto.tipoProduto = "dados.Bone";
+                produto.tipoProduto = "Bone";
+
+            System.out.println("Modelo: " + produto.modelo + "\n");
+            System.out.println("Cor: " + produto.cor + "\n");
+            System.out.println("Qnt Estoque: " + produto.qntEstoque + "\n");
+            System.out.println("Valor: " + produto.valor + "\n");
+            System.out.println("Tipo Produto: " + produto.tipoProduto + "\n");
+            System.out.println(i);
+            System.out.println("-------------------------------\n");
         }
 
         //Setando novos clientes
