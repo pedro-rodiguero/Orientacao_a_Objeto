@@ -1,3 +1,5 @@
+package dados;
+
 public abstract class Produto {
 
     protected String modelo;
@@ -5,6 +7,8 @@ public abstract class Produto {
     protected int qntEstoque;
     protected Long valor;
     protected String tipoProduto;
+
+    //TODO ATUALIZAR UML - atributos agora sao protected, nao private
 
     public Produto(){}
 

@@ -1,8 +1,12 @@
+package dados;
+
 public class Cliente {
     protected String nome;
     protected String cpf;
     protected String cep;
     protected String telefone;
+
+    //TODO ATUALIZAR UML - atributos agora sao protected, nao private
 
     public Cliente(){}
 

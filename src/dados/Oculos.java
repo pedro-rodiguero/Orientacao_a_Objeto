@@ -1,8 +1,9 @@
+package dados;
 
-public class Bone extends Produto {
-	private String tamanho;
+public class Oculos extends Produto {
+    private String tamanho;
 
-	public Bone(String modelo, String cor, int qntEstoque, Long valor, String tamanho) {
+	public Oculos(String modelo, String cor, int qntEstoque, Long valor, String tamanho) {
 		super(modelo, cor, qntEstoque, valor);
 		this.tamanho = tamanho;
 	}
@@ -14,8 +15,8 @@ public class Bone extends Produto {
 	public void setTamanho(String tamanho) {
 		this.tamanho = tamanho;
 	}
-	
-	public void 
-	
 
+    
+
+    
 }

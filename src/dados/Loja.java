@@ -1,3 +1,5 @@
+package dados;
+
 public class Loja {
     private String nomeLoja;
     private String cnpj;

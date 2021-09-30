@@ -1,7 +1,11 @@
+package dados;
+
 public class Venda {
     protected int qntProduto;
     protected int id;
     protected Long valor;
+
+    //TODO ATUALIZAR UML - atributos agora sao protected, nao private
 
     public Venda(){}
 

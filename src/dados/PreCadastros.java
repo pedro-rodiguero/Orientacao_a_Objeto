@@ -1,3 +1,5 @@
+package dados;
+
 import java.util.ArrayList;
 
 //TODO ATUALIZAR UML - nova classe
@@ -40,9 +42,9 @@ public class PreCadastros {
             produto.qntEstoque = qntEstoque[i];
             produto.valor = valor[i];
             if(tipoProdutos[i])
-                produto.tipoProduto = "Oculos";
+                produto.tipoProduto = "dados.Oculos";
             else
-                produto.tipoProduto = "Bone";
+                produto.tipoProduto = "dados.Bone";
         }
 
         //Setando novos clientes
