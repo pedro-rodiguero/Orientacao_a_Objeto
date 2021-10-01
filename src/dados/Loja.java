@@ -16,7 +16,15 @@ public class Loja {
         this.nomeLoja = nomeLoja;
     }
 
+    public String getNomeLoja(String nomeLoja){
+        return nomeLoja;
+    }
+
     public void setCnpj(String cnpj){
         this.cnpj = cnpj;
+    }
+
+    public String getCnpj(String cnpj){
+        return cnpj;
     }
 }

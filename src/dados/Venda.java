@@ -5,8 +5,6 @@ public class Venda {
     protected int id;
     protected Long valor;
 
-    //TODO ATUALIZAR UML - atributos agora sao protected, nao private
-
     public Venda(){}
 
     public Venda( int qntProduto, int id, Long valor){
@@ -16,12 +14,20 @@ public class Venda {
         this.valor = valor;
     }
 
-    public void setqntProduto(int qntProduto){
+    public void setQntProduto(int qntProduto){
         this.qntProduto = qntProduto;
     }
 
-    public void setid(int id){
+    public Integer getQntProduto(int qntProduto){
+        return qntProduto;
+    }
+
+    public void setId(int id){
         this.id = id;
+    }
+
+    public Integer getId(int id){
+        return id;
     }
 
     public void setvalor(Long valor){

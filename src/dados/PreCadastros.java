@@ -2,8 +2,6 @@ package dados;
 
 import java.util.ArrayList;
 
-//TODO ATUALIZAR UML - nova classe
-
 public class PreCadastros {
     //Pre cadastro de produto
     private static final String[] modelos = {"juliet", "aviador","redondo", "quadrado", "esportivo",
@@ -87,5 +85,4 @@ public class PreCadastros {
     public Produto[] toArray(){
         return(Produto[]) produtos.toArray();
     }
-
 }
