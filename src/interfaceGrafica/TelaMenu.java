@@ -1,7 +1,6 @@
 package interfaceGrafica;
 
 import dados.Loja;
-import input.Input;
 
 import javax.swing.JInternalFrame;
 import javax.swing.JLabel;

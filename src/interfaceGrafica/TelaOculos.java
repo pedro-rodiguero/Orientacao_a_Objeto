@@ -7,8 +7,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class TelaOculos {
-	private static JFrame janela = new JFrame("Tela �culos");
-	private static JLabel titulo = new JLabel("�culos dispon�veis:");
+	private static JFrame janela = new JFrame("Tela oculos");
+	private static JLabel titulo = new JLabel("Oculos disponiveis:");
 	public TelaOculos() {
 		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
 		titulo.setBounds(120, 5, 300, 30);

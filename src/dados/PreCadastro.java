@@ -2,7 +2,7 @@ package dados;
 
 import java.util.ArrayList;
 
-public class PreCadastros {
+public class PreCadastro {
     //Pre cadastro de produto
     private static final String[] modelos = {"juliet", "aviador","redondo", "quadrado", "esportivo",
             "aba reta", "aba torta", "viseira"};

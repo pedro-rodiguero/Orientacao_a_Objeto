@@ -8,8 +8,8 @@ import javax.swing.JLabel;
 
 public class TelaBone {
 	
-	private static JFrame janela = new JFrame("Tela bon�");
-	private static JLabel titulo = new JLabel("Bon�s dispon�veis:");
+	private static JFrame janela = new JFrame("Tela bone");
+	private static JLabel titulo = new JLabel("Bones disponiveis:");
 	public TelaBone() {
 		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
 		titulo.setBounds(120, 5, 300, 30);

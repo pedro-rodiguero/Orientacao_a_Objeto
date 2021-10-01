@@ -42,6 +42,5 @@ public abstract class Produto {
     
     public void setTipoProduto(String tipoProduto) {
     	this.tipoProduto = tipoProduto;
-    	
     }
 }
