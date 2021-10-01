@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78ca0cd0-2402-47eb-baba-cdb7e2ccbe5e" name="Changes" comment="Update das classes">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/CadastroLoja.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/CadastroLoja.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dados/PreCadastros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dados/PreCadastros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaceGrafica/TelaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaceGrafica/TelaCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/PreCadastros$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/PreCadastros$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/PreCadastros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/PreCadastros.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/Venda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/Venda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/CadastroLoja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/TelaCliente$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/TelaCliente$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/TelaCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/TelaCliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/output/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/output/Output.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +71,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TelaMenu">
     <configuration name="TP-OO" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Orientacao_a_Objeto" />
@@ -73,6 +79,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TelaMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaceGrafica.TelaMenu" />
+      <module name="Orientacao_a_Objeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaceGrafica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TelaMenu" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="false" transferred="true" />
   <component name="TaskManager">
@@ -92,7 +116,8 @@
       <workItem from="1632418466290" duration="11000" />
       <workItem from="1632925472758" duration="3505000" />
       <workItem from="1632938972658" duration="13001000" />
-      <workItem from="1633089387249" duration="6165000" />
+      <workItem from="1633089387249" duration="6955000" />
+      <workItem from="1633114902810" duration="3493000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit das classes e objetos">
       <created>1631214200073</created>
