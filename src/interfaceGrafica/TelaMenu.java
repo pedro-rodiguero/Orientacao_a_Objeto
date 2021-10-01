@@ -17,7 +17,7 @@ import javax.swing.JComboBox;
 import javax.swing.JDesktopPane;
 import javax.swing.JFrame;
 
-public class CadastroLoja implements ActionListener{
+public class TelaMenu implements ActionListener{
 	
 	private static JFrame janela = new JFrame("Tela inicial");
 	private static JLabel titulo = new JLabel("Menu principal");
@@ -27,7 +27,7 @@ public class CadastroLoja implements ActionListener{
 	private static JButton produto = new JButton("Produto");
 	
 	
-	public CadastroLoja() {
+	public TelaMenu() {
 		titulo.setFont(new Font("Broadway", Font.BOLD, 20));
 		titulo.setBounds(100, 20, 300, 30);
 		cliente.setFont(new Font("Cambria", Font.BOLD, 13));
@@ -54,7 +54,7 @@ public class CadastroLoja implements ActionListener{
 	}
 	
 	public static void main(String[] args) {
-		CadastroLoja menu = new CadastroLoja();
+		TelaMenu menu = new TelaMenu();
 		
 		cliente.addActionListener(menu);
 		venda.addActionListener(menu);
