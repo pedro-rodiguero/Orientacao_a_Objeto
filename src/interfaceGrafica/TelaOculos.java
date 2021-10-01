@@ -7,20 +7,15 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class TelaOculos {
-	
-	private static JFrame janela = new JFrame("Tela óculos");
-	private static JLabel titulo = new JLabel("Óculos disponíveis:");
-	
-	
+	private static JFrame janela = new JFrame("Tela ï¿½culos");
+	private static JLabel titulo = new JLabel("ï¿½culos disponï¿½veis:");
 	public TelaOculos() {
 		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
 		titulo.setBounds(120, 5, 300, 30);
-		
-		
-		janela.setLayout(null);
+
 		janela.add(titulo);
-		
-	
+
+		janela.setLayout(null);
 		janela.setSize(400, 250);
 		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		janela.setVisible(true);

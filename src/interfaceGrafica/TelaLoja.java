@@ -16,11 +16,9 @@ public class TelaLoja {
 		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
 		titulo.setBounds(120, 5, 300, 30);
 		
-		
-		janela.setLayout(null);
 		janela.add(titulo);
-		
-	
+
+		janela.setLayout(null);
 		janela.setSize(400, 250);
 		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		janela.setVisible(true);
