@@ -31,13 +31,13 @@ public class PreCadastros {
     //Pre cadastro de loja
     private static final String[] nomeLojas = {"SunglassHut", "Chilli Beans", "New Era"};
     private static final String[] cpnjs = {"75120410073347", "08888932464067", "05484928010396"};
-
+    ArrayList<Produto> produtos = new ArrayList<>();
+    ArrayList<Cliente> clientes = new ArrayList<>();
+    ArrayList<Venda> vendas = new ArrayList<>();
+    ArrayList<Loja> lojas = new ArrayList<>();
 
     public static void preCadastro(){
-        ArrayList<Produto> produtos = new ArrayList<>();
-        ArrayList<Cliente> clientes = new ArrayList<>();
-        ArrayList<Venda> vendas = new ArrayList<>();
-        ArrayList<Loja> lojas = new ArrayList<>();
+
 
         //Setando novos produtos
         for(int i = 0; i < 8; i++){
@@ -84,4 +84,8 @@ public class PreCadastros {
             loja.cnpj = cpnjs[i];
         }
     }
+    public Produto[] toArray(){
+        return(Produto[]) produtos.toArray();
+    }
+
 }

@@ -1,16 +1,25 @@
 package interfaceGrafica;
 
-import java.awt.Font;
+import dados.PreCadastros;
+import dados.Produto;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
-public class TelaCliente {
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+
+import static output.Output.listarClientes;
+
+public class TelaCliente extends JFrame{
 	
 	private static JFrame janela = new JFrame("Tela cliente");
-	private static JLabel titulo = new JLabel("Dados dos clientes já cadastrados:");
-	private static JButton cadastro = new JButton("Novo cadastro");
+	private static JLabel titulo = new JLabel("Dados dos clientes ja cadastrados:");
+	JButton cadastro = new JButton("Novo cadastro");
+	JButton listarClientes = new JButton("Listar clientes");
+	private static JDesktopPane desktopPane = new JDesktopPane();
 	
 	public TelaCliente() {
 		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
@@ -25,5 +34,21 @@ public class TelaCliente {
 		janela.setSize(400, 250);
 		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		janela.setVisible(true);
+		setResizable(false);
+
+		cadastro.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				listarClientes();
+			}
+		});
+		cadastro.setBounds(735, 361, 89, 23);
+		desktopPane.add(cadastro);
+
+		listarClientes.addActionListener(new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 	}
 }
