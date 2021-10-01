@@ -23,21 +23,29 @@ public class CadastroLoja implements ActionListener{
 	private static JLabel titulo = new JLabel("Menu principal");
 	private static JButton cliente = new JButton("Cliente");
 	private static JButton venda = new JButton("Venda");
-	
+	private static JButton loja = new JButton("Loja");
+	private static JButton produto = new JButton("Produto");
 	
 	
 	public CadastroLoja() {
 		titulo.setFont(new Font("Broadway", Font.BOLD, 20));
 		titulo.setBounds(100, 20, 300, 30);
 		cliente.setFont(new Font("Cambria", Font.BOLD, 13));
-		cliente.setBounds(140, 70, 100, 30);
+		cliente.setBounds(70, 70, 100, 30);
 		venda.setFont(new Font("Cambria", Font.BOLD, 13));
-		venda.setBounds(140, 130, 100, 30);
+		venda.setBounds(70, 130, 100, 30);
+		produto.setFont(new Font("Cambria", Font.BOLD, 13));
+		produto.setBounds(200, 70, 100, 30);
+		loja.setFont(new Font("Cambria", Font.BOLD, 13));
+		loja.setBounds(200, 130, 100, 30);
 
 		janela.setLayout(null);
+		
 		janela.add(titulo);
 		janela.add(cliente);
 		janela.add(venda);
+		janela.add(loja);
+		janela.add(produto);
 	
 		
 		janela.setSize(400, 250);
@@ -50,6 +58,8 @@ public class CadastroLoja implements ActionListener{
 		
 		cliente.addActionListener(menu);
 		venda.addActionListener(menu);
+		loja.addActionListener(menu);
+		produto.addActionListener(menu);
 		
 	}
 	
@@ -61,6 +71,12 @@ public class CadastroLoja implements ActionListener{
 		
 		if(src == venda)
 			new TelaVenda();
+		
+		if(src == loja)
+			new TelaLoja();
+		
+		if(src == produto)
+			new TelaProduto();
 	}
 
 }
