@@ -8,8 +8,6 @@ public abstract class Produto {
     protected Long valor;
     protected String tipoProduto;
 
-    //TODO ATUALIZAR UML - atributos agora sao protected, nao private
-
     public Produto(){}
 
     public Produto(String modelo, String cor, int qntEstoque, Long valor, String tipoProduto){
