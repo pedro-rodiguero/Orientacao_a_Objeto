@@ -1,5 +1,11 @@
 package interfaceGrafica;
 
+/**
+ * Classe para gerar o GUI da tela venda
+ * @author Pedro/Lucas
+ * @version TP.05
+ */
+
 import java.awt.Font;
 
 import javax.swing.JButton;
@@ -11,7 +17,10 @@ public class TelaVenda {
 	private static JFrame janela = new JFrame("Tela venda");
 	private static JLabel titulo = new JLabel("Vendas cadastradas:");
 	private static JButton compra = new JButton("Realizar uma compra");
-	
+
+	/**
+	 * Instancia uma nova Tela venda.
+	 */
 	public TelaVenda() {
 		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
 		titulo.setBounds(120, 5, 300, 30);
