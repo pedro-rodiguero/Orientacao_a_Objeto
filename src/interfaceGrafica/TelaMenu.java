@@ -14,6 +14,11 @@ import javax.swing.JComboBox;
 import javax.swing.JDesktopPane;
 import javax.swing.JFrame;
 
+/**
+ * Classe para gerar o GUI da tela menu.
+ * @author lucas
+ * @version TP.05
+ */
 public class TelaMenu implements ActionListener{
 	
 	private static JFrame janela = new JFrame("Tela inicial");
@@ -22,6 +27,9 @@ public class TelaMenu implements ActionListener{
 	private static JButton venda = new JButton("Venda");
 	private static JButton produto = new JButton("Produto");
 
+	/**
+	 * Instancia uma nova tela menu.
+	 */
 	public TelaMenu() {
 		titulo.setFont(new Font("Broadway", Font.BOLD, 20));
 		titulo.setBounds(100, 20, 300, 30);
@@ -47,6 +55,10 @@ public class TelaMenu implements ActionListener{
 		janela.setVisible(true);
 	}
 	
+	/**
+	 * Adicao dos atributos.
+	 * @param argumentos do input
+	 */
 	public static void main(String[] args) {
 		TelaMenu menu = new TelaMenu();
 		cliente.addActionListener(menu);
@@ -54,6 +66,10 @@ public class TelaMenu implements ActionListener{
 		produto.addActionListener(menu);
 	}
 	
+	/**
+	 * Metodo do direcionamento para uma nova tela.
+	 * @param e 
+	 */
 	public void actionPerformed(ActionEvent e) {
 		Object src = e.getSource();
 		if(src == cliente)

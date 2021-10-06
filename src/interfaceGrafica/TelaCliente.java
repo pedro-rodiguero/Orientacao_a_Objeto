@@ -6,14 +6,26 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
+/**
+ * Classe para gerar o GUI da tela cliente.
+ * @author Pedro/Lucas
+ * @version TP.05
+ */
 public class TelaCliente extends JFrame{
-	
+
 	private static JFrame janela = new JFrame("Tela cliente");
+	
 	private static JLabel titulo = new JLabel("Dados dos clientes ja cadastrados:");
+
 	JButton cadastro = new JButton("Novo cadastro");
+
 	JButton listarClientes = new JButton("Listar clientes");
+
 	private static JDesktopPane desktopPane = new JDesktopPane();
 	
+	/**
+	 * Instancia uma nova tela cliente.
+	 */
 	public TelaCliente() {
 		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
 		titulo.setBounds(70, 5, 300, 30);
@@ -45,3 +57,4 @@ public class TelaCliente extends JFrame{
 		});
 	}
 }
+
