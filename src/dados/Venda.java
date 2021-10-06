@@ -2,10 +2,10 @@ package dados;
 
 /**
  * Classe para fazer os setters e getters da venda
- *
  * @author Pedro /Lucas
  * @version TP.05
  */
+
 public class Venda {
 
     protected int qntProduto;

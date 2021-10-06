@@ -38,5 +38,4 @@ public class Bone extends Produto {
 	public void setTamanho(String tamanho) {
 		this.tamanho = tamanho;
 	}
-
 }

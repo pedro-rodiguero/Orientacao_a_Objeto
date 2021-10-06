@@ -7,8 +7,7 @@ package dados;
  */
 
 public class Oculos extends Produto {
-    
- 
+
     private String tamanho;
 
 	/**
@@ -40,4 +39,3 @@ public class Oculos extends Produto {
 		this.tamanho = tamanho;
 	}
 }
-

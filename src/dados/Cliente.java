@@ -1,13 +1,11 @@
 package dados;
 
-
 /**
  * Classe para representar a classe Cliente.
  * @author Pedro/Lucas
  * @version TP.05
  */
 public class Cliente {
-    
     
     protected String nome;
     protected String cpf;
@@ -26,6 +24,7 @@ public class Cliente {
      * @param cep 
      * @param telefone 
      */
+
     public Cliente(String nome, String cpf, String cep, String telefone){
         this.nome = nome;
         this.cpf = cpf;
@@ -99,5 +98,4 @@ public class Cliente {
     public String getTelefone(String telefone){
         return telefone;
     }
-
 }

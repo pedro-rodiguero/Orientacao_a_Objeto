@@ -5,6 +5,7 @@ package dados;
  * @author Pedro /Lucas
  * @version TP.05
  */
+
 public abstract class Produto {
 
     protected String modelo;

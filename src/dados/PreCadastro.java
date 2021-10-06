@@ -80,6 +80,7 @@ public class PreCadastro {
             venda.valor = valores[i];
         }
     }
+
     /**
      * Array produto [ ].
      * @return the produto [ ]
