@@ -4,7 +4,7 @@ package dados;
 /**
  * Classe para representar a classe Cliente.
  * @author Pedro/Lucas
- * version TP.05
+ * @version TP.05
  */
 public class Cliente {
     

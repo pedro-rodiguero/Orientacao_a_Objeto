@@ -3,7 +3,7 @@ package dados;
 /**
  * Classe para respresentar a classe Bone na loja.
  * @author Pedro/Lucas
- * version TP.05
+ * @version TP.05
  */
 
 public class Bone extends Produto {

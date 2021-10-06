@@ -3,7 +3,7 @@ package dados;
 /**
  * Classe para representar a classe Oculos.
  * @author Pedro/Lucas
- * version TP.05
+ * @version TP.05
  */
 
 public class Oculos extends Produto {
