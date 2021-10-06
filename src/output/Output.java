@@ -1,6 +1,6 @@
 package output;
 
-import static dados.PreCadastros.preCadastro;
+import static dados.PreCadastro.preCadastro;
 
 public class Output {
 

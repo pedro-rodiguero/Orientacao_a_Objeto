@@ -7,13 +7,12 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-
 public class TelaProduto implements ActionListener{
 	
 	private static JFrame janela = new JFrame("Tela produto");
 	private static JLabel titulo = new JLabel("Qual produto deseja selecionar?");
-	private static JButton bone = new JButton("Boné");
-	private static JButton oculos = new JButton("Óculos");
+	private static JButton bone = new JButton("Bone");
+	private static JButton oculos = new JButton("Oculos");
 	
 	
 	

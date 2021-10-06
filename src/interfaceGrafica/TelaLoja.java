@@ -6,13 +6,16 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class TelaOculos {
-	private static JFrame janela = new JFrame("Tela oculos");
-	private static JLabel titulo = new JLabel("Oculos disponiveis:");
-	public TelaOculos() {
+public class TelaLoja {
+	
+	private static JFrame janela = new JFrame("Tela loja");
+	private static JLabel titulo = new JLabel("Lojas cadastradas:");
+	
+	
+	public TelaLoja() {
 		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
 		titulo.setBounds(120, 5, 300, 30);
-
+		
 		janela.add(titulo);
 
 		janela.setLayout(null);
