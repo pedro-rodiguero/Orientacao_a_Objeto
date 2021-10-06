@@ -1,11 +1,6 @@
 package interfaceGrafica;
 
-<<<<<<< HEAD
-
-import input.Input;
-=======
 import dados.Loja;
->>>>>>> fa47ad818d7469992e86880cd0039ad7099b0e11
 
 import javax.swing.JInternalFrame;
 import javax.swing.JLabel;
@@ -34,26 +29,15 @@ public class TelaMenu implements ActionListener{
 		titulo.setBounds(100, 20, 300, 30);
 
 		cliente.setFont(new Font("Cambria", Font.BOLD, 13));
-<<<<<<< HEAD
 		cliente.setBounds(140, 60, 100, 30);
+
 		venda.setFont(new Font("Cambria", Font.BOLD, 13));
-		venda.setBounds(140, 110, 100, 30);
+		venda.setBounds(140, 100, 100, 30);
+
 		produto.setFont(new Font("Cambria", Font.BOLD, 13));
-		produto.setBounds(140, 160, 100, 30);
+		produto.setBounds(140, 140, 100, 30);
+
 		
-=======
-		cliente.setBounds(70, 70, 100, 30);
-
-		venda.setFont(new Font("Cambria", Font.BOLD, 13));
-		venda.setBounds(70, 130, 100, 30);
-
-		produto.setFont(new Font("Cambria", Font.BOLD, 13));
-		produto.setBounds(200, 70, 100, 30);
-
-		loja.setFont(new Font("Cambria", Font.BOLD, 13));
-		loja.setBounds(200, 130, 100, 30);
->>>>>>> fa47ad818d7469992e86880cd0039ad7099b0e11
-
 		janela.add(titulo);
 		janela.add(cliente);
 		janela.add(venda);
@@ -78,14 +62,7 @@ public class TelaMenu implements ActionListener{
 			new TelaCliente();
 		if(src == venda)
 			new TelaVenda();
-<<<<<<< HEAD
-		
-=======
-		if(src == loja)
-			new TelaLoja();
->>>>>>> fa47ad818d7469992e86880cd0039ad7099b0e11
 		if(src == produto)
 			new TelaProduto();
 	}
-
 }

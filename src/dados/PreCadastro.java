@@ -2,11 +2,7 @@ package dados;
 
 import java.util.ArrayList;
 
-<<<<<<< HEAD:src/dados/PreCadastros.java
-public class PreCadastros {
-=======
 public class PreCadastro {
->>>>>>> fa47ad818d7469992e86880cd0039ad7099b0e11:src/dados/PreCadastro.java
     //Pre cadastro de produto
     private static final String[] modelos = {"juliet", "aviador","redondo", "quadrado", "esportivo",
             "aba reta", "aba torta", "viseira"};
@@ -89,8 +85,4 @@ public class PreCadastro {
     public Produto[] toArray(){
         return(Produto[]) produtos.toArray();
     }
-<<<<<<< HEAD:src/dados/PreCadastros.java
 }
-=======
-}
->>>>>>> fa47ad818d7469992e86880cd0039ad7099b0e11:src/dados/PreCadastro.java

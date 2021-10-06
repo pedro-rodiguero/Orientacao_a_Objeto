@@ -15,8 +15,5 @@ public class Oculos extends Produto {
 	public void setTamanho(String tamanho) {
 		this.tamanho = tamanho;
 	}
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fa47ad818d7469992e86880cd0039ad7099b0e11
+
