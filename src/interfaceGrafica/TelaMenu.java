@@ -10,44 +10,59 @@ import javax.swing.border.EtchedBorder;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.ImageIcon;
 import javax.swing.JComboBox;
 import javax.swing.JDesktopPane;
 import javax.swing.JFrame;
 
 /**
  * Classe para gerar o GUI da tela menu.
- * @author lucas
+ * @author Pedro/Lucas
  * @version TP.05
  */
 public class TelaMenu implements ActionListener{
 	
 	private static JFrame janela = new JFrame("Tela inicial");
-	private static JLabel titulo = new JLabel("Menu principal");
 	private static JButton cliente = new JButton("Cliente");
 	private static JButton venda = new JButton("Venda");
-	private static JButton produto = new JButton("Produto");
+	private static JButton oculos = new JButton("Oculos");
+	private static JButton bone = new JButton("Bone");
+	ImageIcon imagem = new ImageIcon(getClass().getResource("imgMenu.jpg"));
+	JLabel titulo = new JLabel("MENU DA LOJA");
+	JLabel img = new JLabel(imagem);
+	
+	
 
 	/**
 	 * Instancia uma nova tela menu.
 	 */
 	public TelaMenu() {
-		titulo.setFont(new Font("Broadway", Font.BOLD, 20));
-		titulo.setBounds(100, 20, 300, 30);
-
+		
 		cliente.setFont(new Font("Cambria", Font.BOLD, 13));
-		cliente.setBounds(140, 60, 100, 30);
+		cliente.setBounds(70, 80, 100, 30);
 
 		venda.setFont(new Font("Cambria", Font.BOLD, 13));
-		venda.setBounds(140, 100, 100, 30);
+		venda.setBounds(200, 80, 100, 30);
 
-		produto.setFont(new Font("Cambria", Font.BOLD, 13));
-		produto.setBounds(140, 140, 100, 30);
-
+		bone.setFont(new Font("Cambria", Font.BOLD, 13));
+		bone.setBounds(70, 140, 100, 30);
 		
-		janela.add(titulo);
+		oculos.setFont(new Font("Cambria", Font.BOLD, 13));
+		oculos.setBounds(200, 140, 100, 30);
+		
+		titulo.setFont(new Font("Broadway", Font.BOLD, 35));
+		titulo.setBounds(45, 0, 300, 90);
+		
+		img.setBounds(0, 0, 400, 250);
+		
 		janela.add(cliente);
 		janela.add(venda);
-		janela.add(produto);
+		janela.add(bone);
+		janela.add(oculos);
+		janela.add(titulo);
+		janela.add(img);
+		
+		
 
 		janela.setLayout(null);
 		janela.setSize(400, 250);
@@ -63,7 +78,10 @@ public class TelaMenu implements ActionListener{
 		TelaMenu menu = new TelaMenu();
 		cliente.addActionListener(menu);
 		venda.addActionListener(menu);
-		produto.addActionListener(menu);
+		bone.addActionListener(menu);
+		oculos.addActionListener(menu);
+		
+		
 	}
 	
 	/**
@@ -76,7 +94,9 @@ public class TelaMenu implements ActionListener{
 			new TelaCliente();
 		if(src == venda)
 			new TelaVenda();
-		if(src == produto)
-			new TelaProduto();
+		if(src == bone)
+			new TelaBone();
+		if(src == oculos)
+			new TelaOculos();
 	}
 }
