@@ -1,7 +1,5 @@
 package interfaceGrafica;
 
-import dados.Loja;
-
 import javax.swing.JInternalFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;

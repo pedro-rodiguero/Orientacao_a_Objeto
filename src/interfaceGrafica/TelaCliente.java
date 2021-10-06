@@ -6,8 +6,6 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-import static output.Output.listarClientes;
-
 public class TelaCliente extends JFrame{
 	
 	private static JFrame janela = new JFrame("Tela cliente");
@@ -31,14 +29,14 @@ public class TelaCliente extends JFrame{
 		janela.setVisible(true);
 		setResizable(false);
 
-		cadastro.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				listarClientes();
-			}
-		});
-		cadastro.setBounds(735, 361, 89, 23);
-		desktopPane.add(cadastro);
+//		cadastro.addActionListener(new ActionListener() {
+//			@Override
+//			public void actionPerformed(ActionEvent e) {
+//				listarClientes();
+//			}
+//		});
+//		cadastro.setBounds(735, 361, 89, 23);
+//		desktopPane.add(cadastro);
 
 		listarClientes.addActionListener(new ActionListener(){
 			@Override

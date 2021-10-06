@@ -1,9 +1,14 @@
 package dados;
 
+/**
+ * Classe para fazer o pre cadastro dos produtos
+ * @author Pedro/Lucas
+ * @version TP.05
+ */
+
 import java.util.ArrayList;
 
 public class PreCadastro {
-    //Pre cadastro de produto
     private static final String[] modelos = {"juliet", "aviador","redondo", "quadrado", "esportivo",
             "aba reta", "aba torta", "viseira"};
     private static final String[] cor = {"azul", "preto", "verde", "roxo", "branco",
@@ -29,10 +34,10 @@ public class PreCadastro {
     //Pre cadastro de loja
     private static final String[] nomeLojas = {"SunglassHut", "Chilli Beans", "New Era"};
     private static final String[] cpnjs = {"75120410073347", "08888932464067", "05484928010396"};
+
     ArrayList<Produto> produtos = new ArrayList<>();
     ArrayList<Cliente> clientes = new ArrayList<>();
     ArrayList<Venda> vendas = new ArrayList<>();
-    ArrayList<Loja> lojas = new ArrayList<>();
 
     public static void preCadastro(){
 
@@ -74,14 +79,11 @@ public class PreCadastro {
             venda.id = ids[i];
             venda.valor = valores[i];
         }
-
-        //Setando novas lojas
-        for(int i = 0; i < 3; i++){
-            Loja loja = new Loja();
-            loja.nomeLoja = nomeLojas[i];
-            loja.cnpj = cpnjs[i];
-        }
     }
+    /**
+     * Array produto [ ].
+     * @return the produto [ ]
+     */
     public Produto[] toArray(){
         return(Produto[]) produtos.toArray();
     }
