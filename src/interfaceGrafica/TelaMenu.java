@@ -3,7 +3,8 @@ package interfaceGrafica;
 import javax.swing.JInternalFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-import javax.swing.JButton;import java.awt.Color;
+import javax.swing.JButton;
+import java.awt.Color;
 import java.awt.Font;
 
 import javax.swing.border.EtchedBorder;
@@ -72,7 +73,7 @@ public class TelaMenu implements ActionListener{
 	
 	/**
 	 * Adicao dos atributos.
-	 * @param argumentos do input
+	 * @param args argumentos do input
 	 */
 	public static void main(String[] args) {
 		TelaMenu menu = new TelaMenu();
@@ -80,13 +81,11 @@ public class TelaMenu implements ActionListener{
 		venda.addActionListener(menu);
 		bone.addActionListener(menu);
 		oculos.addActionListener(menu);
-		
-		
 	}
 	
 	/**
 	 * Metodo do direcionamento para uma nova tela.
-	 * @param e 
+	 * @param e
 	 */
 	public void actionPerformed(ActionEvent e) {
 		Object src = e.getSource();
