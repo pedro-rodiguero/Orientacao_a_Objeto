@@ -1,4 +1,4 @@
-package dados;
+package model;
 
 /**
  * Classe para respresentar a classe Bone na loja.

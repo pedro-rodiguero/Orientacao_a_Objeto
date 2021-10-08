@@ -1,4 +1,4 @@
-package dados;
+package model;
 
 /**
  * Classe para representar a classe Oculos.

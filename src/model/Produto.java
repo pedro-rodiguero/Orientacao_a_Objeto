@@ -1,4 +1,4 @@
-package dados;
+package model;
 
 /**
  * Classe para fazer os setters e getters do produto
