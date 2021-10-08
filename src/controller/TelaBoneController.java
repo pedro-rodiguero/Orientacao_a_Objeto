@@ -9,13 +9,26 @@ import model.DB;
 import model.Produto;
 import view.TelaBone;
 
+/**
+ * The type Tela bone controller.
+ */
 public class TelaBoneController {
     private final TelaBone view;
 
+    /**
+     * Instantiates a new Tela bone controller.
+     *
+     * @param view the view
+     */
     public TelaBoneController(TelaBone view){
         this.view = view;
     }
 
+    /**
+     * Executar botao.
+     *
+     * @param botao the botao
+     */
     public void executarBotao(ActionEvent botao){
         String valorTamanho = view.getValorTamanho().getText();
 

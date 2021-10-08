@@ -10,7 +10,8 @@ import javax.swing.*;
 
 /**
  * Classe para gerar o GUI da tela bone.
- * @author Pedro/Lucas
+ *
+ * @author Pedro /Lucas
  * @version TP.05
  */
 public class TelaBone extends JFrame implements ActionListener {
@@ -53,18 +54,38 @@ public class TelaBone extends JFrame implements ActionListener {
 		this.add(titulo);
 	}
 
+	/**
+	 * Gets titulo.
+	 *
+	 * @return the titulo
+	 */
 	public JLabel getTitulo() {
 		return titulo;
 	}
 
+	/**
+	 * Gets fonte padrao.
+	 *
+	 * @return the fonte padrao
+	 */
 	public Font getFontePadrao() {
 		return fontePadrao;
 	}
 
+	/**
+	 * Gets controller.
+	 *
+	 * @return the controller
+	 */
 	public TelaBoneController getController() {
 		return controller;
 	}
 
+	/**
+	 * Gets valor tamanho.
+	 *
+	 * @return the valor tamanho
+	 */
 	public JTextField getValorTamanho() {
 		return valorTamanho;
 	}

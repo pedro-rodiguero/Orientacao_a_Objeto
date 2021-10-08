@@ -2,16 +2,31 @@ package model;
 
 /**
  * Classe para fazer os setters e getters do produto
+ *
  * @author Pedro /Lucas
  * @version TP.05
  */
-
 public abstract class Produto {
 
+    /**
+     * The Modelo.
+     */
     protected String modelo;
+    /**
+     * The Cor.
+     */
     protected String cor;
+    /**
+     * The Qnt estoque.
+     */
     protected int qntEstoque;
+    /**
+     * The Valor.
+     */
     protected Long valor;
+    /**
+     * The Tipo produto.
+     */
     protected String tipoProduto;
 
     /**
@@ -21,6 +36,7 @@ public abstract class Produto {
 
     /**
      * Instancia um novo Produto.
+     *
      * @param modelo      the modelo
      * @param cor         the cor
      * @param qntEstoque  the qnt estoque
@@ -37,6 +53,7 @@ public abstract class Produto {
 
     /**
      * Instancia um novo Produto.
+     *
      * @param modelo     the modelo
      * @param cor        the cor
      * @param qntEstoque the qnt estoque
@@ -50,6 +67,7 @@ public abstract class Produto {
 
     /**
      * Set modelo.
+     *
      * @param modelo the modelo
      */
     public void setModelo(String modelo){
@@ -58,6 +76,7 @@ public abstract class Produto {
 
     /**
      * Set cor.
+     *
      * @param cor the cor
      */
     public void setCor(String cor){
@@ -66,6 +85,7 @@ public abstract class Produto {
 
     /**
      * Set qnt estoque.
+     *
      * @param qntEstoque the qnt estoque
      */
     public void setQntEstoque(int qntEstoque){
@@ -74,6 +94,7 @@ public abstract class Produto {
 
     /**
      * Get valor long.
+     *
      * @return the long
      */
     public Long getValor(){
@@ -82,6 +103,7 @@ public abstract class Produto {
 
     /**
      * Sets tipo produto.
+     *
      * @param tipoProduto the tipo produto
      */
     public void setTipoProduto(String tipoProduto) {

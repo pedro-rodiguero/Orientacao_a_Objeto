@@ -14,8 +14,8 @@ import model.DB;
 
 /**
  * Classe para gerar o GUI da tela cliente.
- * 
- * @author Pedro/Lucas
+ *
+ * @author Pedro /Lucas
  * @version TP.05
  */
 public class TelaCliente extends JFrame implements ActionListener {
@@ -113,54 +113,119 @@ public class TelaCliente extends JFrame implements ActionListener {
 		this.controller.executarBotao(arg0);
 	}
 
+	/**
+	 * Gets titulo.
+	 *
+	 * @return the titulo
+	 */
 	public JLabel getTitulo() {
 		return titulo;
 	}
 
+	/**
+	 * Gets cpf label.
+	 *
+	 * @return the cpf label
+	 */
 	public JLabel getCpfLabel() {
 		return cpfLabel;
 	}
 
+	/**
+	 * Gets nome label.
+	 *
+	 * @return the nome label
+	 */
 	public JLabel getNomeLabel() {
 		return nomeLabel;
 	}
 
+	/**
+	 * Gets valor nome.
+	 *
+	 * @return the valor nome
+	 */
 	public JTextField getValorNome() {
 		return valorNome;
 	}
 
+	/**
+	 * Gets valor cpf.
+	 *
+	 * @return the valor cpf
+	 */
 	public JTextField getValorCpf() {
 		return valorCpf;
 	}
 
+	/**
+	 * Gets cadastro.
+	 *
+	 * @return the cadastro
+	 */
 	public JButton getCadastro() {
 		return cadastro;
 	}
 
+	/**
+	 * Gets fonte padrao.
+	 *
+	 * @return the fonte padrao
+	 */
 	public Font getFontePadrao() {
 		return fontePadrao;
 	}
 
+	/**
+	 * Gets controller.
+	 *
+	 * @return the controller
+	 */
 	public TelaClienteController getController() {
 		return controller;
 	}
 
+	/**
+	 * Gets cep label.
+	 *
+	 * @return the cep label
+	 */
 	public JLabel getCepLabel() {
 		return cepLabel;
 	}
 
+	/**
+	 * Gets telefone label.
+	 *
+	 * @return the telefone label
+	 */
 	public JLabel getTelefoneLabel() {
 		return telefoneLabel;
 	}
 
+	/**
+	 * Gets valor cep.
+	 *
+	 * @return the valor cep
+	 */
 	public JTextField getValorCep() {
 		return valorCep;
 	}
 
+	/**
+	 * Gets valor telefone.
+	 *
+	 * @return the valor telefone
+	 */
 	public JTextField getValorTelefone() {
 		return valorTelefone;
 	}
 
+	/**
+	 * Gets listar clientes.
+	 *
+	 * @return the listar clientes
+	 */
 	public JButton getListarClientes() {
 		return listarClientes;
 	}

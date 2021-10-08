@@ -8,9 +8,17 @@ import model.Cliente;
 import model.DB;
 import view.TelaCliente;
 
+/**
+ * The type Tela cliente controller.
+ */
 public class TelaClienteController {
 	private final TelaCliente view;
 
+	/**
+	 * Instantiates a new Tela cliente controller.
+	 *
+	 * @param view the view
+	 */
 	public TelaClienteController(TelaCliente view) {
 		this.view = view;
 	}
@@ -21,6 +29,11 @@ public class TelaClienteController {
 
 	private String[] listaClientes = new String[20];
 
+	/**
+	 * Executar botao.
+	 *
+	 * @param botao the botao
+	 */
 	public void executarBotao(ActionEvent botao) {
 		JButton botaoApertado = (JButton) botao.getSource();
 
@@ -39,8 +52,18 @@ public class TelaClienteController {
 			DB.getListaclientes().add(cliente);
 
 		} else if(botaoApertado == this.view.getListarClientes()){
-			System.out.println(DB.getListaclientes());
-			listaClientesCadastrados = new JList<String>(listaClientes);
+
 		}
 	}
+
+	/**
+	 * Criar dados jlist default list model.
+	 *
+	 * @return the default list model
+	 */
+	public DefaultListModel criarDadosJlist(){
+		listaClientesCadastrados = new JList<String>(listaClientes);
+		return criarDadosJlist();
+	}
 }
+

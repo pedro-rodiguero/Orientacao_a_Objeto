@@ -10,7 +10,8 @@ import controller.TelaOculosController;
 
 /**
  * Classe para gerar o GUI da tela oculos
- * @author Pedro/Lucas
+ *
+ * @author Pedro /Lucas
  * @version TP.05
  */
 public class TelaOculos extends JFrame implements ActionListener {
@@ -57,22 +58,47 @@ public class TelaOculos extends JFrame implements ActionListener {
 		this.controller.executarBotao(e);
 	}
 
+	/**
+	 * Gets titulo.
+	 *
+	 * @return the titulo
+	 */
 	public JLabel getTitulo() {
 		return titulo;
 	}
 
+	/**
+	 * Gets oculos button.
+	 *
+	 * @return the oculos button
+	 */
 	public JButton getOculosButton() {
 		return oculosButton;
 	}
 
+	/**
+	 * Gets fonte padrao.
+	 *
+	 * @return the fonte padrao
+	 */
 	public Font getFontePadrao() {
 		return fontePadrao;
 	}
 
+	/**
+	 * Gets controller.
+	 *
+	 * @return the controller
+	 */
 	public TelaOculosController getController() {
 		return controller;
 	}
 
+	/**
+	 * Gets tamanho.
+	 *
+	 * @return the tamanho
+	 */
 	public JTextField getTamanho() {
 		return valorTamanho;
 	}

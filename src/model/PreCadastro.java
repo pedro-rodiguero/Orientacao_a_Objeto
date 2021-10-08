@@ -2,6 +2,9 @@ package model;
 
 import java.util.ArrayList;
 
+/**
+ * The type Pre cadastro.
+ */
 public class PreCadastro {
 	private static final String[] modelos = { "juliet", "aviador", "redondo", "quadrado", "esportivo", "aba reta",
 			"aba torta", "viseira" };
@@ -26,10 +29,22 @@ public class PreCadastro {
 	private static final String[] nomeLojas = { "SunglassHut", "Chilli Beans", "New Era" };
 	private static final String[] cpnjs = { "75120410073347", "08888932464067", "05484928010396" };
 
+	/**
+	 * The Produtos.
+	 */
 	ArrayList<Produto> produtos = new ArrayList<>();
+	/**
+	 * The Clientes.
+	 */
 	ArrayList<Cliente> clientes = new ArrayList<>();
+	/**
+	 * The Vendas.
+	 */
 	ArrayList<Venda> vendas = new ArrayList<>();
 
+	/**
+	 * Pre cadastro.
+	 */
 	public static void preCadastro() {
 
 		// Setando novos produtos
@@ -74,7 +89,7 @@ public class PreCadastro {
 
 	/**
 	 * Array produto [ ].
-	 * 
+	 *
 	 * @return the produto [ ]
 	 */
 	public Produto[] toArray() {

@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78ca0cd0-2402-47eb-baba-cdb7e2ccbe5e" name="Changes" comment="Update das classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TelaBoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TelaBoneController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/TelaClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TelaClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TelaOculosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TelaOculosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Bone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Bone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaBone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaBone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/TelaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaCliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,6 +114,8 @@
       <workItem from="1633522595613" duration="1205000" />
       <workItem from="1633547446056" duration="2441000" />
       <workItem from="1633697417058" duration="8053000" />
+      <workItem from="1633711517803" duration="2159000" />
+      <workItem from="1633730213583" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit das classes e objetos">
       <created>1631214200073</created>
