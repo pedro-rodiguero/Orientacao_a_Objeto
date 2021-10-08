@@ -6,11 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="78ca0cd0-2402-47eb-baba-cdb7e2ccbe5e" name="Changes" comment="Update das classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dados/PreCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dados/PreCadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dados/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dados/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dados/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dados/Venda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaceGrafica/TelaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaceGrafica/TelaCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaceGrafica/TelaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaceGrafica/TelaMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/TelaCliente$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/TelaCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/TelaCliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dados/Bone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Bone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dados/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dados/Oculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Oculos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dados/PreCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PreCadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dados/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dados/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Venda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceGrafica/TelaBone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaBone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceGrafica/TelaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceGrafica/TelaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceGrafica/TelaOculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaOculos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceGrafica/TelaVenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaVenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaceGrafica/imgMenu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/imgMenu.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
