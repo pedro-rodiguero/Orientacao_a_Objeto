@@ -39,7 +39,7 @@ public class TelaCliente extends JFrame implements ActionListener {
 
 		this.fontePadrao = new Font("Cambria", Font.BOLD, 15);
 
-		getContentPane().setLayout(null);
+		this.setLayout(null);
 		this.setSize(400, 250);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
@@ -47,31 +47,31 @@ public class TelaCliente extends JFrame implements ActionListener {
 		this.titulo = new JLabel("Cliente");
 		this.titulo.setFont(fontePadrao);
 		this.titulo.setBounds(161, 12, 63, 30);
-		getContentPane().add(titulo);
+		this.add(titulo);
 
 		this.cpfLabel = new JLabel("CPF");
 		this.cpfLabel.setFont(fontePadrao);
 		this.cpfLabel.setBounds(22, 31, 63, 30);
-		getContentPane().add(cpfLabel);
+		this.add(cpfLabel);
 
 		this.nomeLabel = new JLabel("Nome");
 		this.nomeLabel.setFont(fontePadrao);
 		this.nomeLabel.setBounds(315, 31, 63, 30);
-		getContentPane().add(nomeLabel);
+		this.add(nomeLabel);
 
 		this.valorNome = new JTextField(20);
 		this.valorNome.setBounds(252, 73, 126, 30);
-		getContentPane().add(valorNome);
+		this.add(valorNome);
 
 		this.valorCpf = new JTextField(20);
 		this.valorCpf.setBounds(22, 73, 126, 30);
-		getContentPane().add(valorCpf);
+		this.add(valorCpf);
 
 		this.cadastro = new JButton("Cadastro");
 		this.cadastro.setFont(fontePadrao);
 		this.cadastro.setBounds(46, 164, 300, 30);
 		this.cadastro.addActionListener(this);
-		getContentPane().add(cadastro);
+		this.add(cadastro);
 	}
 
 	@Override
