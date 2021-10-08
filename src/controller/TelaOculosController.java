@@ -1,8 +1,7 @@
 package controller;
 
-import model.Cliente;
 import model.DB;
-import model.Oculos;
+import model.Produto;
 import view.TelaOculos;
 
 import javax.swing.*;
@@ -12,23 +11,16 @@ public class TelaOculosController {
     private final TelaOculos view;
 
     public TelaOculosController(TelaOculos view){this.view = view;}
+
     public void executarBotao(ActionEvent botao) {
         JButton botaoApertado = (JButton) botao.getSource();
 
-        if (botaoApertado == this.view.getCadastro()) {
-            String valorNome = view.getValorNome().getText();
-            String valorCpf = view.getValorCpf().getText();
+        if (botaoApertado == this.view.getOculosButton()) {
+            Produto produto = new Produto(){};
+            DB.getListaProdutos().add(produto);
 
-            Cliente cliente = new Cliente();
-
-            cliente.setNomeCliente(valorNome);
-            cliente.setCpf(valorCpf);
-            cliente.setCep("15456");
-            cliente.setTelefone("15545454");
-
-            DB.getListaclientes().add(cliente);
+            System.out.println("asadads");
         }
-
-        System.out.println(DB.getListaclientes());
+        System.out.println(DB.getListaProdutos());
     }
 }
