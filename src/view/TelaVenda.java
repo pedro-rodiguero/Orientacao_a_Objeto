@@ -1,38 +1,55 @@
 package view;
 
-/**
- * Classe para gerar o GUI da tela venda
- * @author Pedro/Lucas
- * @version TP.05
- */
+import controller.TelaVendaController;
 
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class TelaVenda {
+/**
+ * Classe para gerar o GUI da tela venda
+ * @author Pedro/Lucas
+ * @version TP.05
+ */
+public class TelaVenda extends JFrame implements ActionListener {
 	
-	private static JFrame janela = new JFrame("Tela venda");
-	private static JLabel titulo = new JLabel("Vendas cadastradas:");
-	private static JButton compra = new JButton("Realizar uma compra");
+	private final JLabel titulo;
+	private final JButton compra;
+	private final Font fontePadrao;
+	private final TelaVendaController controller;
 
 	/**
 	 * Instancia uma nova Tela venda.
 	 */
 	public TelaVenda() {
-		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
-		titulo.setBounds(120, 5, 300, 30);
-		compra.setFont(new Font("Cambria", Font.BOLD, 15));
-		compra.setBounds(100, 170, 200, 30);
-		
-		janela.setLayout(null);
-		janela.add(titulo);
-		janela.add(compra);
-	
-		janela.setSize(400, 250);
-		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		janela.setVisible(true);
+		super("Tela Venda");
+		this.controller = new TelaVendaController(this);
+
+		this.fontePadrao = new Font("Cambria", Font.BOLD, 15);
+
+		this.setLayout(null);
+		this.setSize(400, 250);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setResizable(false);
+
+		this.titulo = new JLabel("Vendas");
+		this.titulo.setFont(fontePadrao);
+		this.titulo.setBounds(160, 0, 63, 30);
+		this.add(titulo);
+
+		this.compra = new JButton("Comprar");
+		this.compra.setFont(fontePadrao);
+		this.compra.setBounds(240, 182, 126, 30);
+		this.compra.addActionListener(this);
+		this.add(compra);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		this.controller.executarBotao(e);
 	}
 }

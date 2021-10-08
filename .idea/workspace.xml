@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="78ca0cd0-2402-47eb-baba-cdb7e2ccbe5e" name="Changes" comment="Update das classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/dados/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Orientacao_a_Objeto/interfaceGrafica/TelaCliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TelaOculosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TelaOculosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/TelaVendaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TelaVendaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/TelaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaOculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaOculos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaVenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaVenda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +32,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1xplsybFhfGgms2Qy7zuLjacu66" />
   <component name="ProjectLevelVcsManager">
