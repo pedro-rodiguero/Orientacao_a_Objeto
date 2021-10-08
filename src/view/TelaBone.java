@@ -1,6 +1,10 @@
 package view;
 
+import controller.TelaBoneController;
+
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -11,23 +15,36 @@ import javax.swing.JLabel;
  * @author Pedro/Lucas
  * @version TP.05
  */
-public class TelaBone {
-	
-	private static JFrame janela = new JFrame("Tela bone");
-	private static JLabel titulo = new JLabel("Bones disponiveis:");
-	
+public class TelaBone extends JFrame implements ActionListener {
+	private final JLabel titulo;
+
+	private final Font fontePadrao;
+
+	private final TelaBoneController controller;
+
 	/**
 	 * Instancia uma nova tela bone.
 	 */
 	public TelaBone() {
-		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
-		titulo.setBounds(120, 5, 300, 30);
+		super("Tela Bone");
+		this.controller = new TelaBoneController(this);
 
-		janela.add(titulo);
+		this.fontePadrao = new Font("Cambria", Font.BOLD, 15);
 
-		janela.setLayout(null);
-		janela.setSize(400, 250);
-		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		janela.setVisible(true);
+
+		this.setLayout(null);
+		this.setSize(400, 250);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setResizable(false);
+
+		this.titulo = new JLabel("Cliente");
+		this.titulo.setFont(fontePadrao);
+		this.titulo.setBounds(160, 0, 63, 30);
+		this.add(titulo);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+
 	}
 }

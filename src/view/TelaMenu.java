@@ -98,7 +98,7 @@ public class TelaMenu implements ActionListener{
 		if(src == venda)
 			new TelaVenda().setVisible(true);
 		if(src == bone)
-			new TelaBone();
+			new TelaBone().setVisible(true);
 		if(src == oculos)
 			new TelaOculos().setVisible(true);
 	}
