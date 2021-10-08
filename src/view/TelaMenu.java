@@ -1,9 +1,12 @@
-package interfaceGrafica;
+package view;
 
 import javax.swing.JInternalFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+
+import static model.PreCadastro.preCadastro;
+
 import java.awt.Color;
 import java.awt.Font;
 
@@ -81,6 +84,7 @@ public class TelaMenu implements ActionListener{
 		venda.addActionListener(menu);
 		bone.addActionListener(menu);
 		oculos.addActionListener(menu);
+		preCadastro();
 	}
 	
 	/**
@@ -90,7 +94,7 @@ public class TelaMenu implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		Object src = e.getSource();
 		if(src == cliente)
-			new TelaCliente();
+			new TelaCliente().setVisible(true);
 		if(src == venda)
 			new TelaVenda();
 		if(src == bone)

@@ -1,4 +1,4 @@
-package interfaceGrafica;
+package view;
 
 /**
  * Classe para gerar o GUI da tela venda

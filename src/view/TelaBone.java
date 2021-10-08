@@ -1,4 +1,4 @@
-package interfaceGrafica;
+package view;
 
 import java.awt.Font;
 

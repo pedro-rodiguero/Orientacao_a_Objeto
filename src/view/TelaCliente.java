@@ -1,60 +1,114 @@
-package interfaceGrafica;
+package view;
 
-import java.awt.*;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+import controller.TelaClienteController;
 
 /**
  * Classe para gerar o GUI da tela cliente.
+ * 
  * @author Pedro/Lucas
  * @version TP.05
  */
-public class TelaCliente extends JFrame{
+public class TelaCliente extends JFrame implements ActionListener {
+//		DEFAULT LIST MODEL!!!!
+	private final JLabel titulo;
+	private final JLabel cpfLabel;
+	private final JLabel nomeLabel;
 
-	private static JFrame janela = new JFrame("Tela cliente");
-	
-	private static JLabel titulo = new JLabel("Dados dos clientes ja cadastrados:");
+	private final JTextField valorNome;
+	private final JTextField valorCpf;
+	private final JButton cadastro;
+	private final Font fontePadrao;
 
-	JButton cadastro = new JButton("Novo cadastro");
+	private final TelaClienteController controller;
 
-	JButton listarClientes = new JButton("Listar clientes");
-
-	private static JDesktopPane desktopPane = new JDesktopPane();
-	
 	/**
 	 * Instancia uma nova tela cliente.
 	 */
 	public TelaCliente() {
-		titulo.setFont(new Font("Cambria", Font.BOLD, 15));
-		titulo.setBounds(70, 5, 300, 30);
-		cadastro.setFont(new Font("Cambria", Font.BOLD, 15));
-		cadastro.setBounds(100, 170, 200, 30);
-		
-		janela.setLayout(null);
-		janela.add(titulo);
-		janela.add(cadastro);
-	
-		janela.setSize(400, 250);
-		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		janela.setVisible(true);
-		setResizable(false);
+		super("Tela Cliente");
+		this.controller = new TelaClienteController(this);
 
-//		cadastro.addActionListener(new ActionListener() {
-//			@Override
-//			public void actionPerformed(ActionEvent e) {
-//				listarClientes();
-//			}
-//		});
-//		cadastro.setBounds(735, 361, 89, 23);
-//		desktopPane.add(cadastro);
+		this.fontePadrao = new Font("Cambria", Font.BOLD, 15);
 
-		listarClientes.addActionListener(new ActionListener(){
-			@Override
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
+		getContentPane().setLayout(null);
+		this.setSize(400, 250);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setResizable(false);
+
+		this.titulo = new JLabel("Cliente");
+		this.titulo.setFont(fontePadrao);
+		this.titulo.setBounds(161, 12, 63, 30);
+		getContentPane().add(titulo);
+
+		this.cpfLabel = new JLabel("CPF");
+		this.cpfLabel.setFont(fontePadrao);
+		this.cpfLabel.setBounds(22, 31, 63, 30);
+		getContentPane().add(cpfLabel);
+
+		this.nomeLabel = new JLabel("Nome");
+		this.nomeLabel.setFont(fontePadrao);
+		this.nomeLabel.setBounds(315, 31, 63, 30);
+		getContentPane().add(nomeLabel);
+
+		this.valorNome = new JTextField(20);
+		this.valorNome.setBounds(252, 73, 126, 30);
+		getContentPane().add(valorNome);
+
+		this.valorCpf = new JTextField(20);
+		this.valorCpf.setBounds(22, 73, 126, 30);
+		getContentPane().add(valorCpf);
+
+		this.cadastro = new JButton("Cadastro");
+		this.cadastro.setFont(fontePadrao);
+		this.cadastro.setBounds(46, 164, 300, 30);
+		this.cadastro.addActionListener(this);
+		getContentPane().add(cadastro);
 	}
-}
 
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		this.controller.executarBotao(arg0);
+	}
+
+	public JLabel getTitulo() {
+		return titulo;
+	}
+
+	public JLabel getCpfLabel() {
+		return cpfLabel;
+	}
+
+	public JLabel getNomeLabel() {
+		return nomeLabel;
+	}
+
+	public JTextField getValorNome() {
+		return valorNome;
+	}
+
+	public JTextField getValorCpf() {
+		return valorCpf;
+	}
+
+	public JButton getCadastro() {
+		return cadastro;
+	}
+
+	public Font getFontePadrao() {
+		return fontePadrao;
+	}
+
+	public TelaClienteController getController() {
+		return controller;
+	}
+
+}
