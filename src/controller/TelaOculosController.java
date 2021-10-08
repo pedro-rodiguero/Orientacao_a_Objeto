@@ -18,8 +18,6 @@ public class TelaOculosController {
         if (botaoApertado == this.view.getOculosButton()) {
             Produto produto = new Produto(){};
             DB.getListaProdutos().add(produto);
-
-            System.out.println("asadads");
         }
         System.out.println(DB.getListaProdutos());
     }

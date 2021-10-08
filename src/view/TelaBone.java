@@ -6,9 +6,7 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
+import javax.swing.*;
 
 /**
  * Classe para gerar o GUI da tela bone.
@@ -17,8 +15,10 @@ import javax.swing.JLabel;
  */
 public class TelaBone extends JFrame implements ActionListener {
 	private final JLabel titulo;
+	private final JButton boneButton;
 
 	private final Font fontePadrao;
+	private final JTextField valorTamanho;
 
 	private final TelaBoneController controller;
 
@@ -37,14 +37,40 @@ public class TelaBone extends JFrame implements ActionListener {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
 
-		this.titulo = new JLabel("Cliente");
+		this.valorTamanho = new JTextField(20);
+		this.valorTamanho.setBounds(77, 32, 126, 30);
+		this.add(valorTamanho);
+
+		this.boneButton = new JButton("Ver bone");
+		this.boneButton.setFont(fontePadrao);
+		this.boneButton.setBounds(46, 164, 300, 30);
+		this.boneButton.addActionListener(this);
+		this.add(boneButton);
+
+		this.titulo = new JLabel("Bone");
 		this.titulo.setFont(fontePadrao);
 		this.titulo.setBounds(160, 0, 63, 30);
 		this.add(titulo);
 	}
 
+	public JLabel getTitulo() {
+		return titulo;
+	}
+
+	public Font getFontePadrao() {
+		return fontePadrao;
+	}
+
+	public TelaBoneController getController() {
+		return controller;
+	}
+
+	public JTextField getValorTamanho() {
+		return valorTamanho;
+	}
+
 	@Override
 	public void actionPerformed(ActionEvent e) {
-
+		this.controller.executarBotao(e);
 	}
 }

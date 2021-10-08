@@ -14,6 +14,11 @@ public abstract class DB {
 		return listaProdutos;
 	}
 
-	private DB() {}
+	public DB() {}
 
+	private DB d = new DB(){};
+
+	public DB getD() {
+		return d;
+	}
 }

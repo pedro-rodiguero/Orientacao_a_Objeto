@@ -6,6 +6,7 @@ import javax.swing.JButton;
 
 import model.Bone;
 import model.DB;
+import model.Produto;
 import view.TelaBone;
 
 public class TelaBoneController {
@@ -16,6 +17,15 @@ public class TelaBoneController {
     }
 
     public void executarBotao(ActionEvent botao){
+        String valorTamanho = view.getValorTamanho().getText();
 
+        Produto produto = new Produto(){};
+        Bone bone = new Bone();
+
+        bone.setTamanho(valorTamanho);
+
+        DB.getListaProdutos().add(produto);
+
+        System.out.println(DB.getListaProdutos());
     }
 }

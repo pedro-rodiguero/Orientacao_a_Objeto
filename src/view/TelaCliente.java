@@ -10,6 +10,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 import controller.TelaClienteController;
+import model.DB;
 
 /**
  * Classe para gerar o GUI da tela cliente.
@@ -29,10 +30,15 @@ public class TelaCliente extends JFrame implements ActionListener {
 	private final JTextField valorCpf;
 	private final JTextField valorCep;
 	private final JTextField valorTelefone;
+
 	private final JButton cadastro;
+	private final JButton listarClientes;
+
 	private final Font fontePadrao;
 
 	private final TelaClienteController controller;
+
+	private static DB dados;
 
 	/**
 	 * Instancia uma nova tela cliente.
@@ -94,6 +100,12 @@ public class TelaCliente extends JFrame implements ActionListener {
 		this.cadastro.setBounds(240, 182, 126, 30);
 		this.cadastro.addActionListener(this);
 		this.add(cadastro);
+
+		this.listarClientes = new JButton("Listar Clientes");
+		this.listarClientes.setFont(fontePadrao);
+		this.listarClientes.setBounds(240, 100, 126, 30);
+		this.listarClientes.addActionListener(this);
+		this.add(listarClientes);
 	}
 
 	@Override
@@ -147,6 +159,10 @@ public class TelaCliente extends JFrame implements ActionListener {
 
 	public JTextField getValorTelefone() {
 		return valorTelefone;
+	}
+
+	public JButton getListarClientes() {
+		return listarClientes;
 	}
 
 }

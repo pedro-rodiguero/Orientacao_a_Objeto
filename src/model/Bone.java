@@ -23,6 +23,8 @@ public class Bone extends Produto {
 		this.tamanho = tamanho;
 	}
 
+	public Bone(){}
+
 /**
  * Get tamanho.
  * @return tamanho

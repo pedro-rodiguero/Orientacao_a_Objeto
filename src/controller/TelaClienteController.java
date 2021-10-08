@@ -2,7 +2,7 @@ package controller;
 
 import java.awt.event.ActionEvent;
 
-import javax.swing.JButton;
+import javax.swing.*;
 
 import model.Cliente;
 import model.DB;
@@ -14,6 +14,12 @@ public class TelaClienteController {
 	public TelaClienteController(TelaCliente view) {
 		this.view = view;
 	}
+
+	private static DB dados;
+
+	private JList<String> listaClientesCadastrados;
+
+	private String[] listaClientes = new String[20];
 
 	public void executarBotao(ActionEvent botao) {
 		JButton botaoApertado = (JButton) botao.getSource();
@@ -29,13 +35,12 @@ public class TelaClienteController {
 			cliente.setCpf(valorCpf);
 			cliente.setNomeCliente(valorCep);
 			cliente.setCpf(valorTelefone);
-			
-			cliente.setCep("15456");
-			cliente.setTelefone("15545454");
 
 			DB.getListaclientes().add(cliente);
-		}
 
-		System.out.println(DB.getListaclientes());
+		} else if(botaoApertado == this.view.getListarClientes()){
+			System.out.println(DB.getListaclientes());
+			listaClientesCadastrados = new JList<String>(listaClientes);
+		}
 	}
 }
