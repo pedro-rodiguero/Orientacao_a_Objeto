@@ -32,24 +32,24 @@ public class TelaMenu implements ActionListener{
 	private static JButton venda = new JButton("Venda");
 	private static JButton oculos = new JButton("Oculos");
 	private static JButton bone = new JButton("Bone");
-    /**
-     * The Imagem.
-     */
-    ImageIcon imagem = new ImageIcon(getClass().getResource("imgMenu.jpg"));
-    /**
-     * The Titulo.
-     */
-    JLabel titulo = new JLabel("MENU DA LOJA");
-    /**
-     * The Img.
-     */
-    JLabel img = new JLabel(imagem);
+	/**
+	 * The Imagem.
+	 */
+	ImageIcon imagem = new ImageIcon(getClass().getResource("imgMenu.jpg"));
+	/**
+	 * The Titulo.
+	 */
+	JLabel titulo = new JLabel("MENU DA LOJA");
+	/**
+	 * The Img.
+	 */
+	JLabel img = new JLabel(imagem);
 
 
-    /**
-     * Instancia uma nova tela menu.
-     */
-    public TelaMenu() {
+	/**
+	 * Instancia uma nova tela menu.
+	 */
+	public TelaMenu() {
 		
 		cliente.setFont(new Font("Cambria", Font.BOLD, 13));
 		cliente.setBounds(70, 80, 100, 30);
@@ -83,12 +83,12 @@ public class TelaMenu implements ActionListener{
 		janela.setVisible(true);
 	}
 
-    /**
-     * Adicao dos atributos.
-     *
-     * @param args argumentos do input
-     */
-    public static void main(String[] args) {
+	/**
+	 * Adicao dos atributos.
+	 *
+	 * @param args argumentos do input
+	 */
+	public static void main(String[] args) {
 		TelaMenu menu = new TelaMenu();
 		cliente.addActionListener(menu);
 		venda.addActionListener(menu);

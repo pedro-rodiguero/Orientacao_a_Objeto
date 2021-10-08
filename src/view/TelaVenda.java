@@ -23,10 +23,10 @@ public class TelaVenda extends JFrame implements ActionListener {
 	private final Font fontePadrao;
 	private final TelaVendaController controller;
 
-    /**
-     * Instancia uma nova Tela venda.
-     */
-    public TelaVenda() {
+	/**
+	 * Instancia uma nova Tela venda.
+	 */
+	public TelaVenda() {
 		super("Tela Venda");
 		this.controller = new TelaVendaController(this);
 
