@@ -22,9 +22,13 @@ public class TelaCliente extends JFrame implements ActionListener {
 	private final JLabel titulo;
 	private final JLabel cpfLabel;
 	private final JLabel nomeLabel;
+	private final JLabel cepLabel;
+	private final JLabel telefoneLabel;
 
 	private final JTextField valorNome;
 	private final JTextField valorCpf;
+	private final JTextField valorCep;
+	private final JTextField valorTelefone;
 	private final JButton cadastro;
 	private final Font fontePadrao;
 
@@ -46,30 +50,48 @@ public class TelaCliente extends JFrame implements ActionListener {
 
 		this.titulo = new JLabel("Cliente");
 		this.titulo.setFont(fontePadrao);
-		this.titulo.setBounds(161, 12, 63, 30);
+		this.titulo.setBounds(160, 0, 63, 30);
 		this.add(titulo);
 
 		this.cpfLabel = new JLabel("CPF");
 		this.cpfLabel.setFont(fontePadrao);
-		this.cpfLabel.setBounds(22, 31, 63, 30);
+		this.cpfLabel.setBounds(20, 73, 63, 30);
 		this.add(cpfLabel);
 
 		this.nomeLabel = new JLabel("Nome");
 		this.nomeLabel.setFont(fontePadrao);
-		this.nomeLabel.setBounds(315, 31, 63, 30);
+		this.nomeLabel.setBounds(20, 30, 63, 30);
 		this.add(nomeLabel);
+		
+		this.cepLabel = new JLabel("CEP");
+		this.cepLabel.setFont(fontePadrao);
+		this.cepLabel.setBounds(20, 114, 63, 30);
+		this.add(cepLabel);
+		
+		this.telefoneLabel = new JLabel("Telefone");
+		this.telefoneLabel.setFont(fontePadrao);
+		this.telefoneLabel.setBounds(10, 155, 63, 30);
+		getContentPane().add(telefoneLabel);
 
 		this.valorNome = new JTextField(20);
-		this.valorNome.setBounds(252, 73, 126, 30);
+		this.valorNome.setBounds(77, 32, 126, 30);
 		this.add(valorNome);
 
 		this.valorCpf = new JTextField(20);
-		this.valorCpf.setBounds(22, 73, 126, 30);
+		this.valorCpf.setBounds(77, 76, 126, 28);
 		this.add(valorCpf);
+		
+		this.valorCep = new JTextField(20);
+		this.valorCep.setBounds(77, 114, 126, 30);
+		this.add(valorCep);
+		
+		this.valorTelefone = new JTextField(20);
+		this.valorTelefone.setBounds(77, 157, 126, 30);
+		this.add(valorTelefone);
 
 		this.cadastro = new JButton("Cadastro");
 		this.cadastro.setFont(fontePadrao);
-		this.cadastro.setBounds(46, 164, 300, 30);
+		this.cadastro.setBounds(240, 182, 126, 30);
 		this.cadastro.addActionListener(this);
 		this.add(cadastro);
 	}
@@ -109,6 +131,22 @@ public class TelaCliente extends JFrame implements ActionListener {
 
 	public TelaClienteController getController() {
 		return controller;
+	}
+
+	public JLabel getCepLabel() {
+		return cepLabel;
+	}
+
+	public JLabel getTelefoneLabel() {
+		return telefoneLabel;
+	}
+
+	public JTextField getValorCep() {
+		return valorCep;
+	}
+
+	public JTextField getValorTelefone() {
+		return valorTelefone;
 	}
 
 }

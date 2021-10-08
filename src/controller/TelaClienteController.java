@@ -21,10 +21,15 @@ public class TelaClienteController {
 		if (botaoApertado == this.view.getCadastro()) {
 			String valorNome = view.getValorNome().getText();
 			String valorCpf = view.getValorCpf().getText();
+			String valorCep = view.getValorCep().getText();
+			String valorTelefone = view.getValorTelefone().getText();
 			Cliente cliente = new Cliente();
 
 			cliente.setNomeCliente(valorNome);
 			cliente.setCpf(valorCpf);
+			cliente.setNomeCliente(valorCep);
+			cliente.setCpf(valorTelefone);
+			
 			cliente.setCep("15456");
 			cliente.setTelefone("15545454");
 
