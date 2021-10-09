@@ -6,25 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78ca0cd0-2402-47eb-baba-cdb7e2ccbe5e" name="Changes" comment="Update das classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orientacao_a_Objeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Orientacao_a_Objeto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TelaBoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/TelaBoneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TelaClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/TelaClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TelaOculosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/TelaOculosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TelaVendaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/TelaVendaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Bone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Bone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Oculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Oculos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PreCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/PreCadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Venda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaBone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/TelaBone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/TelaCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/TelaMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaOculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/TelaOculos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaVenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/TelaVenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/imgMenu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/imgMenu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste/testew.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +53,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../TCU/ministerio-publico-afastamento" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -152,7 +133,7 @@
       <workItem from="1633711517803" duration="2159000" />
       <workItem from="1633730213583" duration="300000" />
       <workItem from="1633732281323" duration="555000" />
-      <workItem from="1633742113674" duration="1385000" />
+      <workItem from="1633742113674" duration="1774000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit das classes e objetos">
       <created>1631214200073</created>
@@ -191,5 +172,9 @@
     <MESSAGE value="Primeiro commit das classes e objetos" />
     <MESSAGE value="Update das classes" />
     <option name="LAST_COMMIT_MESSAGE" value="Update das classes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

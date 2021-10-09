@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main.controller</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">main.controller.TelaClienteController</node>
+    <node x="15.0" y="217.0">main.controller.TelaOculosController</node>
+    <node x="18.0" y="338.0">main.controller.TelaVendaController</node>
+    <node x="18.5" y="459.0">main.controller.TelaBoneController</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="295.0" y="258.0" />
+  <SelectedNodes>
+    <node>main.controller.TelaBoneController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

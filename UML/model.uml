@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main.model</OriginalElement>
+  <nodes>
+    <node x="621.0" y="279.0">main.model.Bone</node>
+    <node x="611.0" y="563.0">main.model.DB</node>
+    <node x="449.5" y="0.0">main.model.Produto</node>
+    <node x="0.0" y="0.0">main.model.PreCadastro</node>
+    <node x="335.0" y="563.0">main.model.Venda</node>
+    <node x="0.0" y="563.0">main.model.Cliente</node>
+    <node x="294.0" y="291.0">main.model.Oculos</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.model.Bone" target="main.model.Produto" relationship="GENERALIZATION">
+      <point x="0.0" y="-54.5" />
+      <point x="768.5" y="254.0" />
+      <point x="608.0" y="254.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="main.model.Oculos" target="main.model.Produto" relationship="GENERALIZATION">
+      <point x="0.0" y="-42.5" />
+      <point x="447.5" y="254.0" />
+      <point x="608.0" y="254.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6508120649651972" showDependencies="false" x="458.0" y="421.00000000000006" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
