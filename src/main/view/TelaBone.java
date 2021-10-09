@@ -1,6 +1,6 @@
-package view;
+package main.view;
 
-import controller.TelaBoneController;
+import main.controller.TelaBoneController;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -73,9 +73,9 @@ public class TelaBone extends JFrame implements ActionListener {
 	}
 
 	/**
-	 * Gets controller.
+	 * Gets main.controller.
 	 *
-	 * @return the controller
+	 * @return the main.controller
 	 */
 	public TelaBoneController getController() {
 		return controller;

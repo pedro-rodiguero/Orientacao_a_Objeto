@@ -6,8 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="78ca0cd0-2402-47eb-baba-cdb7e2ccbe5e" name="Changes" comment="Update das classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TelaClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TelaClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orientacao_a_Objeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Orientacao_a_Objeto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/TelaBoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/TelaBoneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/TelaClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/TelaClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/TelaOculosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/TelaOculosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/TelaVendaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/TelaVendaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Bone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Bone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Oculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Oculos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PreCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/PreCadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Venda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaBone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/TelaBone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/TelaCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/TelaMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaOculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/TelaOculos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaVenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/TelaVenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/imgMenu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/imgMenu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste/testew.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -42,22 +60,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowTODO.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../TCU/ministro-afastamento" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../TCU/ministerio-publico-afastamento" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.space" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="test" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TelaMenu">
@@ -69,7 +104,7 @@
       </method>
     </configuration>
     <configuration name="TelaMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="view.TelaMenu" />
+      <option name="MAIN_CLASS_NAME" value="main.view.TelaMenu" />
       <module name="Orientacao_a_Objeto" />
       <extension name="coverage">
         <pattern>
@@ -116,6 +151,8 @@
       <workItem from="1633697417058" duration="8053000" />
       <workItem from="1633711517803" duration="2159000" />
       <workItem from="1633730213583" duration="300000" />
+      <workItem from="1633732281323" duration="555000" />
+      <workItem from="1633742113674" duration="1385000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit das classes e objetos">
       <created>1631214200073</created>

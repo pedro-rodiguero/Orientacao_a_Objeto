@@ -1,4 +1,4 @@
-package model;
+package main.model;
 
 /**
  * Classe para fazer os setters e getters do produto

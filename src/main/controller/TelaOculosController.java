@@ -1,22 +1,22 @@
-package controller;
+package main.controller;
 
-import model.DB;
-import model.Produto;
-import view.TelaOculos;
+import main.model.DB;
+import main.model.Produto;
+import main.view.TelaOculos;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 /**
- * The type Tela oculos controller.
+ * The type Tela oculos main.controller.
  */
 public class TelaOculosController {
     private final TelaOculos view;
 
     /**
-     * Instantiates a new Tela oculos controller.
+     * Instantiates a new Tela oculos main.controller.
      *
-     * @param view the view
+     * @param view the main.view
      */
     public TelaOculosController(TelaOculos view){this.view = view;}
 

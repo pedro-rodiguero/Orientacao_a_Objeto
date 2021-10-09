@@ -1,24 +1,22 @@
-package controller;
+package main.controller;
 
 import java.awt.event.ActionEvent;
 
-import javax.swing.JButton;
-
-import model.Bone;
-import model.DB;
-import model.Produto;
-import view.TelaBone;
+import main.model.Bone;
+import main.model.DB;
+import main.model.Produto;
+import main.view.TelaBone;
 
 /**
- * The type Tela bone controller.
+ * The type Tela bone main.controller.
  */
 public class TelaBoneController {
     private final TelaBone view;
 
     /**
-     * Instantiates a new Tela bone controller.
+     * Instantiates a new Tela bone main.controller.
      *
-     * @param view the view
+     * @param view the main.view
      */
     public TelaBoneController(TelaBone view){
         this.view = view;

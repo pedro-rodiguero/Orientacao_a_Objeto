@@ -1,23 +1,23 @@
-package controller;
+package main.controller;
 
 import java.awt.event.ActionEvent;
 
 import javax.swing.*;
 
-import model.Cliente;
-import model.DB;
-import view.TelaCliente;
+import main.model.Cliente;
+import main.model.DB;
+import main.view.TelaCliente;
 
 /**
- * The type Tela cliente controller.
+ * The type Tela cliente main.controller.
  */
 public class TelaClienteController {
 	private final TelaCliente view;
 
 	/**
-	 * Instantiates a new Tela cliente controller.
+	 * Instantiates a new Tela cliente main.controller.
 	 *
-	 * @param view the view
+	 * @param view the main.view
 	 */
 	public TelaClienteController(TelaCliente view) {
 		this.view = view;
@@ -57,9 +57,9 @@ public class TelaClienteController {
 	}
 
 	/**
-	 * Criar dados jlist default list model.
+	 * Criar dados jlist default list main.model.
 	 *
-	 * @return the default list model
+	 * @return the default list main.model
 	 */
 	public DefaultListModel criarDadosJlist(){
 		listaClientesCadastrados = new JList<String>(listaClientes);

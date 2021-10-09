@@ -1,24 +1,21 @@
-package controller;
+package main.controller;
 
-import view.TelaVenda;
+import main.view.TelaVenda;
 
 import java.awt.event.ActionEvent;
 
 import javax.swing.JButton;
 
-import model.DB;
-import view.TelaVenda;
-
 /**
- * The type Tela venda controller.
+ * The type Tela venda main.controller.
  */
 public class TelaVendaController {
     private final TelaVenda view;
 
     /**
-     * Instantiates a new Tela venda controller.
+     * Instantiates a new Tela venda main.controller.
      *
-     * @param view the view
+     * @param view the main.view
      */
     public TelaVendaController(TelaVenda view){
         this.view = view;

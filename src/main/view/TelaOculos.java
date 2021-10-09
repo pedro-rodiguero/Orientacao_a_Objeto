@@ -1,4 +1,4 @@
-package view;
+package main.view;
 //TODO Classe esta funcionando, so precisa fazer a venda funcionar
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-import controller.TelaOculosController;
+import main.controller.TelaOculosController;
 
 /**
  * Classe para gerar o GUI da tela oculos
@@ -86,9 +86,9 @@ public class TelaOculos extends JFrame implements ActionListener {
 	}
 
 	/**
-	 * Gets controller.
+	 * Gets main.controller.
 	 *
-	 * @return the controller
+	 * @return the main.controller
 	 */
 	public TelaOculosController getController() {
 		return controller;

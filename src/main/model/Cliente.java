@@ -1,4 +1,4 @@
-package model;
+package main.model;
 
 /**
  * Classe para representar a classe Cliente.

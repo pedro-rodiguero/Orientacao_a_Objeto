@@ -1,22 +1,15 @@
-package view;
+package main.view;
 
-import javax.swing.JInternalFrame;
 import javax.swing.JLabel;
-import javax.swing.JTextField;
 import javax.swing.JButton;
 
-import static model.PreCadastro.preCadastro;
+import static main.model.PreCadastro.preCadastro;
 
-import java.awt.Color;
 import java.awt.Font;
 
-import javax.swing.border.EtchedBorder;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import javax.swing.DefaultComboBoxModel;
 import javax.swing.ImageIcon;
-import javax.swing.JComboBox;
-import javax.swing.JDesktopPane;
 import javax.swing.JFrame;
 
 /**

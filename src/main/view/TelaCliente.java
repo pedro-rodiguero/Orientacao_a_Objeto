@@ -1,4 +1,4 @@
-package view;
+package main.view;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -9,8 +9,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-import controller.TelaClienteController;
-import model.DB;
+import main.controller.TelaClienteController;
+import main.model.DB;
 
 /**
  * Classe para gerar o GUI da tela cliente.
@@ -177,9 +177,9 @@ public class TelaCliente extends JFrame implements ActionListener {
 	}
 
 	/**
-	 * Gets controller.
+	 * Gets main.controller.
 	 *
-	 * @return the controller
+	 * @return the main.controller
 	 */
 	public TelaClienteController getController() {
 		return controller;

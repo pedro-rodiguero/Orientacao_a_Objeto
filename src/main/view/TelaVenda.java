@@ -1,6 +1,6 @@
-package view;
+package main.view;
 
-import controller.TelaVendaController;
+import main.controller.TelaVendaController;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
